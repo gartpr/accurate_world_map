@@ -6,6 +6,7 @@ L.tileLayer(
   { attribution: "© OpenStreetMap, © CartoDB" }
 ).addTo(map);
 
+/*
 fetch("cities.geojson")
   .then(res => res.json())
   .then(data => {
@@ -18,4 +19,4 @@ fetch("cities.geojson")
         });
       }
     }).addTo(map);
-  });
+  }); */
